@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    padding: 2em;
+    background: linear-gradient(90deg, rgba(0,73,255,1) 0%, rgba(96,252,255,0.8524096385542168) 53%, rgba(0,73,255,1) 100%);
+}
+
+fieldset {
+    color: black;
+    text-align: center;
+    border: 0.2em solid white;
+    border-radius: 1em;
+    box-shadow: rgba(208, 0, 226, 0.4) 5px 5px, rgba(180, 15, 199, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+#date {
+    font-size: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family: "Lobster", sans-serif;
+}
+
+#clock {
+    font-size: 10em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
